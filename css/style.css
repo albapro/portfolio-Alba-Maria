@@ -28,6 +28,7 @@ a:hover {
     color: var(--bg-color);
   }
 
+  
 body {
     font-family: 'Nunito';
 }
@@ -91,6 +92,28 @@ h2{
     font-size: 36px;
     font-family: 'Rubik';
     margin-top: 2rem;
+}
+
+.titles{
+    font-family: 'Rubik';
+    font-size: 48px;
+}
+
+.subtitles{
+    font-family: 'Rubik';
+    font-size: 20px;
+    margin-bottom: 3rem;
+}
+
+.subtitles1{
+    font-family: 'Rubik';
+    font-size: 20px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+footer{
+    margin-top: 3rem;
 }
 
 /*--------MEDIA QUERIES--------*/
