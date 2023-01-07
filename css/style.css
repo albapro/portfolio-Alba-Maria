@@ -102,18 +102,11 @@ h2{
 .subtitles{
     font-family: 'Rubik';
     font-size: 20px;
-    margin-bottom: 3rem;
 }
 
 .subtitles1{
     font-family: 'Rubik';
     font-size: 20px;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-}
-
-footer{
-    margin-top: 3rem;
 }
 
 /*--------MEDIA QUERIES--------*/
