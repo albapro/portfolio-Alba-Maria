@@ -28,8 +28,12 @@ a:hover {
     color: var(--bg-color);
   }
 
-  
 body {
+    font-family: 'Rubik';
+}
+
+  
+nav {
     font-family: 'Nunito';
 }
 
@@ -78,34 +82,34 @@ body {
 
 /*--------MY STYLES--------*/
 
-h2{
-    font-family: 'Rubik';
-}
+
 
 .i-am{
     font-size: 36px;
-    font-family: 'Rubik';
 }
 
 .based{
     font-size: 36px;
-    font-family: 'Rubik';
 }
 
 .titles{
-    font-family: 'Rubik';
     font-size: 48px;
 }
 
-.subtitles{
-    font-family: 'Rubik';
+.subtitles {
     font-size: 20px;
 }
 
 .subtitles1{
-    font-family: 'Rubik';
     font-size: 20px;
 }
+
+.form-text {
+    margin-bottom: .5rem;
+    font-size: 1em;
+    color: var(--first-color);
+  }
+  
 
 /*--------MEDIA QUERIES--------*/
 /* // Small devices (landscape phones, 576px and up) */

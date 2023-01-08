@@ -47,8 +47,33 @@
         </div>
     </nav>
   </header>
-  <main class="pt-5">
-     <h1>SECTION</h1>
+  <main class="pt-5 align-items-lg-center bg-black">
+    <section class="text-center text-white">
+      <p class="titles pb-2">CONTACT</p>
+      <p class="subtitles">Send me your comment!</p>
+   </section>
+   <article class="col-12 col-lg-6 order-lg-1 mx-auto pb-5">
+    <form action="https://formsubmit.co/albamaria.idi@gmail.com" method="POST">
+      <div class="mb-3">
+        <label class="form-text" for="name">NAME:</label>
+        <input class="form-control" id="name" name="name" placeholder="Your name" type="text" required/>
+      </div>
+      <div class="mb-3">
+        <label class="form-text" for="email">E-MAIL:</label>
+        <input class="form-control" id="email" name="email" placeholder="Your email" type="email" required/>
+      </div>
+      <div class="mb-3">
+        <label class="form-text" for="comments">COMMENT:</label>
+        <textarea rows= "5" class="form-control" id="comments" name="comments" placeholder="Leave me your comment"required></textarea>
+      </div>
+      <div class="mt-5 text-center">
+        <button type="submit" class="btn btn-lg btn-light">Send comment</button>
+        <input type="hidden" name="_next" value="https:// /gracias.html"/>
+        <input type="hidden" name="_subject" value="Comment portfolio'Alba Maria"/>
+      </div>
+    </form>
+  </article>
+  </main>
   <footer class="bg-dark p-3">
     <div class="container text-center">
       <nav class="d-flex justify-content-evenly">
