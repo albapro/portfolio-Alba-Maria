@@ -1,0 +1,136 @@
+/*--------CUSTOM PROPERTIES--------*/
+:root {
+    --first-color: rgb(255, 255, 255);
+    --first-alpha-color: rgba(210, 210, 210, 0.75);
+    --second-color: rgb(44, 44, 44);
+    --second-alpha-color: rgba(20, 25, 45, 0.75);
+  
+    --link-color: rgb(255, 255, 255);
+    --link-alpha-color: rgba(210, 210, 210, 0.75);
+  
+    --bg-color: rgb(0, 0, 0);
+    --bg-alpha-color: rgba(245, 245, 245, 0.75);
+  }
+
+/*--------RESET STYLES--------*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+}
+
+a {
+    color: var(--link-color);
+    transition: all 0.3s ease-out;
+  }
+  
+a:hover {
+    color: var(--bg-color);
+  }
+
+body {
+    font-family: 'Rubik';
+}
+
+  
+nav {
+    font-family: 'Nunito';
+}
+
+/*--------BOOTSTRAP STYLES--------*/
+.bg-dark {
+    background-color: var(--second-color) !important;
+}
+
+.dropdown-item {
+    color: var(--bg-color);
+    transition: all 0.3s ease-out;
+}
+
+.dropdown-item {
+    color: var(--first-alpha-color);
+}
+
+.navbar-dark .navbar-toggler {
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    transition: all 0.3s ease-out;
+  }
+  
+.navbar-dark .navbar-toggler:hover {
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    opacity: 0.75;
+}
+  
+.nav-item {
+    margin-left: .2.5rem;
+    padding-top: .5rem;
+    transition: all 0.3s ease-out;
+}
+
+.nav-link {
+    color: var(--first-color);
+    font-size: 1.15rem;
+}
+
+.nav-link:hover {
+    color: var(--first-alpha-color);
+}
+
+.nav-item:hover{
+    background-color: var(--first-alpha-color);
+}
+
+/*--------MY STYLES--------*/
+
+
+
+.i-am{
+    font-size: 36px;
+}
+
+.based{
+    font-size: 36px;
+}
+
+.titles{
+    font-size: 48px;
+}
+
+.subtitles {
+    font-size: 20px;
+}
+
+.subtitles1{
+    font-size: 20px;
+}
+
+.form-text {
+    margin-bottom: .5rem;
+    font-size: 1em;
+    color: var(--first-color);
+  }
+  
+
+/*--------MEDIA QUERIES--------*/
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .nav-item:hover {
+    background-color: transparent;
+  }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}
